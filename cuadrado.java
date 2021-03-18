@@ -6,6 +6,7 @@ public class cuadrado {
         int n;
         int c = 0 ;
         int i = 1 ;
+        System.out.println("digite un numero para calcular el cuadrado");
         Scanner m = new Scanner(System.in);
         n = Integer.parseInt(m.nextLine());
         for (int j=0; j < n; j++) {
