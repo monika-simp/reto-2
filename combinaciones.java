@@ -8,8 +8,10 @@ public class combinaciones {
         int i=0;
 
         System.out.println("empezemos");
+        System.out.println("digite n");
         Scanner m = new Scanner(System.in);
         n = Integer.parseInt(m.nextLine());
+        System.out.println("digite m");
         mo = Integer.parseInt(m.nextLine());
         long nfac = n;
         long mfac = mo;
