@@ -6,6 +6,7 @@ public class retiro {
         int n;
         int c5 = 50000;
         System.out.println("empezemos");
+        System.out.println("digite el cambio a calcular");
         Scanner m = new Scanner(System.in);
         n = Integer.parseInt(m.nextLine());
         while (billetes >= 50){
