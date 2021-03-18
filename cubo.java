@@ -6,6 +6,7 @@ public class cubo {
     int i;
     int p=0;
     System.out.println("empezemos");
+        System.out.println("digite un numero para calcular el cubo");
     Scanner m = new Scanner(System.in);
     n = Integer.parseInt(m.nextLine());
     for (int j=0 ; j < n; j++) {
